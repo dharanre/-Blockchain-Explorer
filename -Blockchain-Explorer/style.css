@@ -1,0 +1,76 @@
+/* Styling for the header */
+header {
+    background-color: #7c2121;
+    color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Styling for the main content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ca8383;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styling for blocks */
+.block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #70bbc9;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for transactions */
+.transaction {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for blocks and transactions */
+.block:hover, .transaction:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+
+/* Styling for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Styling for buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
