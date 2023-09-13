@@ -1,5 +1,3 @@
-# -Blockchain-Explorer
-Building a Blockchain Explorer
 
 # -Blockchain-Explorer
 Building a Blockchain Explorer
